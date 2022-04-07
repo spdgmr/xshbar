@@ -32,10 +32,17 @@ and then you will be able to see all available plugins. Let's say we want date.p
 
 You can now vim into that file and see all of its variables. We can mention these in the file we're about to edit.
 
-##### cd ~/.config/zshbar && vim prn
+##### cd ~/.config/xshbar && vim prn
 
 prn is the file which contains what we will be printing.
 
 ![image](https://user-images.githubusercontent.com/71722170/162231229-0ebaabc9-9e12-4ba1-bc15-cc17542fd92c.png)
 
 This is an example of what it can print. You can type plain text in XSHBAR_CORE_DISPLAY or specify a variable using $<myvariable>
+You can also print the output of a command by using 
+  
+$(echo foo)
+
+##### vim ~/.config/xshbar/xshbar
+
+![image](https://user-images.githubusercontent.com/71722170/162249304-d0c9dd0e-a4aa-4757-bc97-7aee71717084.png)
